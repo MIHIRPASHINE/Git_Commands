@@ -1,0 +1,30 @@
+
+Git-Commands
+-------------
+
+git init - to initialize a new repository locally on terminal
+git clone - will clone the repo into new directory 
+git status - will display the status of the repo
+git ls-files - will display the files tracked by git
+git add file-name - will add the file to the staging area/make the file trackable by git
+git restore –staged file-name - will send the file back from staging to workspace
+git commit -m “msg” file-name - will move the file from staging to local repo
+git push - will push the file from Local to central (Git-Hub)
+ 
+Note - Create Personal access token to push
+Go to Settings/ Developer settings / Personal access token / Create Classic token 
+Note - use "msg" to mention the version number while commiting the code/file
+
+git log - will display the complete log details
+git log –-oneline - will display commit details in short form 
+git show <commit-id> - will display the complete commit details
+git fetch - will show the changes  
+git pull   - will pull the changes from central repo to local 
+git branch - will display the list of branches
+git branch <name> - will create a new branch
+git checkout <branch-name> - will transfer us to a different branch
+git merge <branch-name> - will merge content from different branches
+git cherry-pick <commit-id> - will only merge specific file from that commit-id
+git push –all - will push all the branches to the central repo (Git-Hub)
+git reset --hard commitId = to retrive older version of code/file
+git remote -v = to check the remote URL/ destination repo URL
